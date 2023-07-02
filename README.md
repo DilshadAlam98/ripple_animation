@@ -33,12 +33,13 @@ import 'package:packages/packages.dart';
       size:70,
 ),
 ```
+https://github.com/Shadil-rayeen/ripple_animation/assets/84621229/4df31a4b-d2a5-4ac1-8f7b-6061b187db26
 
-to use the animation in reverse use flag reverse to false;
+to use the animation in reverse use flag reverse to true;
 
 ```dart
  RipplesAnimation(
-      reverse:false
+      reverse:true
       color: Colors.green,
       size:70,
 ),
@@ -46,8 +47,6 @@ to use the animation in reverse use flag reverse to false;
 
 https://github.com/Shadil-rayeen/ripple_animation/assets/84621229/be491005-2c5f-4761-9e7f-0750309ae498
 
-
-https://github.com/Shadil-rayeen/ripple_animation/assets/84621229/37405a38-4a07-435f-97ca-9122fd4df2b5
 
 
 
