@@ -63,22 +63,17 @@ class _RipplesAnimationState extends State<RipplesAnimation> with TickerProvider
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text("Flutter Ripple Demo"),
-      ),
-      body: Center(
-        child: CustomPaint(
-          painter: CirclePainter(
-            reverse: widget.reverse,
-            _controller,
-            color: widget.color,
-          ),
-          child: SizedBox(
-            width: widget.size * 4.125,
-            height: widget.size * 4.125,
-            child: buildAnimation(),
-          ),
+    return Center(
+      child: CustomPaint(
+        painter: CirclePainter(
+          reverse: widget.reverse,
+          _controller,
+          color: widget.color,
+        ),
+        child: SizedBox(
+          width: widget.size * 4.125,
+          height: widget.size * 4.125,
+          child: buildAnimation(),
         ),
       ),
     );
