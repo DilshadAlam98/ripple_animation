@@ -16,9 +16,15 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const RipplesAnimation(
-        reverse: false,
-        color: Colors.green,
+      home: const Scaffold(
+        body: RipplesAnimation(
+          color: Colors.green,
+          child: Icon(
+            Icons.bluetooth_audio_rounded,
+            size: 50,
+            color: Colors.white,
+          ),
+        ),
       ),
     );
   }

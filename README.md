@@ -22,7 +22,7 @@ Create a versatile ripple animation plugin that can be used for audio calls, vid
 
 import package
 ```dart
-import 'package:packages/packages.dart';
+import 'package:packages/ripple_animation.dart';
 ```
 
 ## Usage
