@@ -1,5 +1,4 @@
 
-https://github.com/Shadil-rayeen/ripple_animation/assets/84621229/82b381cb-a13d-4df6-9a76-7b4582762a43
 <!--
 Developer: Dilshad Alam
 Github: https://github.com/Shadil-rayeen
